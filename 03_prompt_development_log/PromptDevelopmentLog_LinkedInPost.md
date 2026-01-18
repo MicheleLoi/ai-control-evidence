@@ -188,3 +188,27 @@ Both served in single post without splitting focus.
 - GitHub artifacts to highlight
 - Candidate angles
 - Voice continuity notes
+
+---
+
+## PDL-009: AI Rhetorical Tell Elimination
+
+**Source:** Epistemic Constitutional AI project, PatternSummary_Section1.md, Pattern 1
+
+**Pattern imported:**
+> **Trigger:** "Not because X, but because Y" construction
+>
+> **Problem:** This parallel negation-affirmation structure has become a signature AI writing pattern. It creates false symmetry and substitutes rhythmic balance for actual insight.
+>
+> **Solution:** Rewrite as direct statement. If the insight is real, it survives straightforward expression.
+
+**Decision:** Add to Forbidden section of Complete Prompt.
+
+**Rationale:** 
+- The prompt asks for "executive voice" (sharp, declarative)
+- ChatGPT may reach for familiar patterns when asked to write sharply
+- "Not because X, but because Y" *sounds* punchy but is rhythmic filler
+- A careful reader would recognize it as AI-generated
+- Adding to Forbidden prevents the common AI tell while maintaining executive tone
+
+**Cross-project transfer:** This pattern was developed during the Epistemic Constitutional AI paper and applies across all AI-assisted writing. First explicit import into LinkedIn post prompt.

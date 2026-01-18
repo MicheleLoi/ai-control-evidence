@@ -110,6 +110,7 @@ Brief transition (1-2 sentences) that makes the post self-demonstrating:
 - Vague recommendations ("train people better," "create awareness")
 - Positioning as ethicist, philosopher, or AI critic
 - Self-congratulation about the meta turn (let artifacts speak)
+- **AI rhetorical tells:** Avoid "Not because X, but because Y" constructions. This parallel negation-affirmation structure is a signature AI pattern — it creates false symmetry and substitutes rhythmic balance for actual insight. If the insight is real, it survives straightforward expression.
 
 ---
 
@@ -135,6 +136,7 @@ This prompt synthesizes:
 - Epistemic traces 003 (engagement as operational variable) and 004 (artifact grounding)
 - JPEP artifact ontology (Types 2, 7, 8 mapped to engagement dimensions)
 - Source conversation lines 166-211 (executive payoff and closing)
+- Pattern 1 from Epistemic Constitutional AI PatternSummary_Section1.md (AI rhetorical tell elimination)
 
 The intellectual architecture connects user's philosophical work on meaningful human control to executive-ready operational framework via the "traceability of cognition" move.
 
