@@ -4,14 +4,17 @@ source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6/c/6
 date: 2026-01-18
 sequence: 4
 input_type: generated
-input_artifact: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership.md
+input_from: "[[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]"
 input_line: 31-84
 input_text: "The insight executives don't yet have...That's executive-native language."
 input_organic: "Contest: I want a narrower focus..."
 external_ref: JPEP/Paper/UTILITY/Appendix3-5.md
-output_artifact_1: Note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control.md
-output_artifact_2: Note 2 - Engagement Failures and the Artifact Lens (Post Framing).md
+output_to:
+  - "[[Note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control]]"
+  - "[[Note 2 - Engagement Failures and the Artifact Lens (Post Framing)]]"
 output_line: 601-604
+traced_by: "[[004_EpistemicTrace_ArtifactGrounding]]"
+prev_conversation: "[[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]"
 ---
 
 #####   

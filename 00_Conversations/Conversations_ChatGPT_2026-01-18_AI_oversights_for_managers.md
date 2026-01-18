@@ -4,12 +4,15 @@ source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6/c/6
 date: 2026-01-18
 sequence: 2
 input_type: generated
-input_artifact: Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities.md
+input_from: "[[Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities]]"
 input_line: 646
 input_text: "Most orgs do not know: when AI materially influenced a human decision..."
-output_artifact: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership.md
+output_to: "[[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]"
 output_line: 143
 output_text: "Indicators of critical engagement vs passive acceptance"
+traced_by: "[[002_EpistemicTrace_ManagerNativeLanguage]]"
+prev_conversation: "[[Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities]]"
+next_conversation: "[[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]"
 ---
 
 Most orgs do not know: when AI materially influenced a human decision how to prove “human oversight” wasn’t fake how to distinguish “assistive” vs “decisional” AI use What should a though leadership peace about this contain in order to strike on managers actually involved in ai strategy Not ideas. I'm not short on ideas and will avoid the GPT playbook of fake experts. I need guidance on understanding the client side, the questions they have. They are not identical to mine, or at least they use a different language

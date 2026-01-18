@@ -1,7 +1,12 @@
 ---
-Source chat name: Meaningful Human Control
-Source chat ID: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6-consultancy-fine-tuning/c/696cdd22-79b0-832d-a04a-a5e88b1965b6
-Date: 2026-01-18
+source_chat_name: Meaningful Human Control
+source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6-consultancy-fine-tuning/c/696cdd22-79b0-832d-a04a-a5e88b1965b6
+date: 2026-01-18
+sequence: 5
+input_type: complete_prompt
+input_from: "[[CompletePrompt_LinkedInPost]]"
+output_to: "[[LinkedIn-Post-2026-01-19]]"
+purpose: Generate LinkedIn post from Complete Prompt
 ---
 Initial prompt:
 [CompletePrompt_LinkedInPost]

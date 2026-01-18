@@ -1,17 +1,17 @@
-# Epistemic Trace: AI Strategy Execution and Consultant Role Targeting
-
 ---
 trace_id: 001
 date_generated: 2026-01-18
-source_conversation: Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities.md
+source_conversation: Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities
 source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6-consultancy-fine-tuning/c/696cb101-7ff0-8330-a97e-b8be4c3c62fc
 ai_system: ChatGPT (consultancy fine-tuning GPT)
 sequence_in_chain: 1
 input_type: organic
-output_transferred_to: Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers.md
+output_transferred_to: Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers
 output_line: 646
 key_transfer_text: Most orgs do not know when AI materially influenced a human decision...
 ---
+
+# Epistemic Trace: AI Strategy Execution and Consultant Role Targeting
 
 ## I. Conversation Purpose and Arc
 
@@ -130,3 +130,11 @@ This conversation reveals the organic origin of the article chain. The user didn
 1. Will user pursue the governance architect positioning?
 2. Did the corporate AI strategy research serve any purpose beyond leading to the pivot?
 3. Is the credentials anxiety resolved or deferred?
+
+---
+
+## Navigation
+
+- Source: [[Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities]]
+- Output to: [[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]
+- Next trace: [[002_EpistemicTrace_ManagerNativeLanguage]]

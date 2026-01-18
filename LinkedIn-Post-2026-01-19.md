@@ -1,4 +1,17 @@
-“Meaningful human control” is not a governance slogan. It is a test: can humans actually steer an AI system’s behavior when it matters?
+---
+title: LinkedIn Post - Meaningful Human Control
+date: 2026-01-19
+type: published_artifact
+source_conversation: "[[Conversation_ChatGPT_2026_01-18_Meaningful_Human_Control]]"
+source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6-consultancy-fine-tuning/c/696cdd22-79b0-832d-a04a-a5e88b1965b6
+input_from: "[[CompletePrompt_LinkedInPost]]"
+chain_origin: "[[Conversation_ChatGPT_2026-01-18_AI_strategies_for_entities]]"
+documented_in: "[[Process Note - Artifact Chain Documentation]]"
+follow_up: "[[Note_Post2Brief]]"
+repo_url: https://github.com/MicheleLoi/ai-control-evidence
+---
+
+"Meaningful human control" is not a governance slogan. It is a test: can humans actually steer an AI system’s behavior when it matters?
 
 Most organizations still run on a checkbox myth: a human approves the output, therefore control exists.
 

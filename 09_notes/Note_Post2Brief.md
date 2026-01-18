@@ -6,7 +6,13 @@ artifact_type: Type 11
 project: LinkedinArticleOnMeaningfulHumanControl
 purpose: Working document for Post 2 (contingent on Post 1 response)
 status: pre-prompt (convert to CompletePrompt after Post 1 engagement data)
-linked_to: CompletePrompt_LinkedInPost.md
+follows: "[[CompletePrompt_LinkedInPost]]"
+post_1: "[[LinkedIn-Post-2026-01-19]]"
+key_artifacts_to_highlight:
+  - "[[003_EpistemicTrace_EngagementAsOperationalVariable]]"
+  - "[[004_EpistemicTrace_ArtifactGrounding]]"
+  - "[[PromptDevelopmentLog_LinkedInPost]]"
+  - "[[Process Note - Artifact Chain Documentation]]"
 repo_url: https://github.com/MicheleLoi/ai-control-evidence
 ---
 

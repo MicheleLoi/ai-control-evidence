@@ -4,12 +4,16 @@ source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6/c/6
 date: 2026-01-18
 sequence: 3
 input_type: generated
-input_artifact: Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers.md
+input_from: "[[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]"
 input_line: 143
 input_text: "Indicators of critical engagement vs passive acceptance"
-output_artifact: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts.md
+output_to: "[[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]"
 output_line: 31-84
 output_text: "The insight executives don't yet have...That's executive-native language."
+traced_by: "[[003_EpistemicTrace_EngagementAsOperationalVariable]]"
+prev_conversation: "[[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]"
+next_conversation: "[[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]"
+recovered_by: "[[PromptDevelopmentLog_LinkedInPost]]"
 ---
 
 #####   

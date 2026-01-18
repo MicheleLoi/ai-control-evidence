@@ -1,20 +1,21 @@
-# Epistemic Trace: Critical Engagement as Operational Variable
-
 ---
 trace_id: 003
 date_generated: 2026-01-18
-source_conversation: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership.md
+source_conversation: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership
 source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6/c/696cb7ce-7990-8325-a9b8-7d44a3b1e3c0
 ai_system: ChatGPT (consultancy fine-tuning GPT)
 sequence_in_chain: 3
 input_type: generated
-input_from: Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers.md
+input_from: Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers
 input_line: 143
 input_text: Indicators of critical engagement vs passive acceptance
-output_transferred_to: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts.md
+output_transferred_to: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts
 output_lines: 31-84
 key_transfer_text: The insight executives don't yet have...That's executive-native language.
+used_by: PromptDevelopmentLog_LinkedInPost
 ---
+
+# Epistemic Trace: Critical Engagement as Operational Variable
 
 ## I. Conversation Purpose
 
@@ -169,3 +170,14 @@ Then added organic input: "Contest: I want a narrower focus..."
 
 ### For Retrospective Understanding
 This is the "framework crystallization" conversation. The ideas from previous conversations become structured, defensible, and executive-ready. The engagement spectrum provides the evaluative lens.
+
+---
+
+## Navigation
+
+- Source: [[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]
+- Input from: [[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]
+- Output to: [[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]
+- Prev trace: [[002_EpistemicTrace_ManagerNativeLanguage]]
+- Next trace: [[004_EpistemicTrace_ArtifactGrounding]]
+- Used by: [[PromptDevelopmentLog_LinkedInPost]]

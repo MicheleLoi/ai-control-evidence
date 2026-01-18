@@ -5,9 +5,11 @@ date: 2026-01-18
 sequence: 1
 input_type: organic
 input_artifact: none
-output_artifact: AI_oversights_for_managers.md
+output_to: "[[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]"
 output_line: 646
 output_text: "Most orgs do not know: when AI materially influenced a human decision..."
+traced_by: "[[001_EpistemicTrace_AIStrategyRoleTargeting]]"
+next_conversation: "[[Conversations_ChatGPT_2026-01-18_AI_oversights_for_managers]]"
 ---
 
 #####   

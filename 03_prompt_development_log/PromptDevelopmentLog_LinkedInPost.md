@@ -4,10 +4,12 @@ date: 2026-01-18
 type: prompt_development_log
 artifact_type: Type 8a
 project: LinkedinArticleOnMeaningfulHumanControl
-input_artifacts: 003_EpistemicTrace_EngagementAsOperationalVariable.md, 004_EpistemicTrace_ArtifactGrounding.md
-source_conversations: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership.md
-output_artifact: CompletePrompt_LinkedInPost.md
+created_with: Claude Code (conversation not stored - this PDL documents the process)
+starting_skeleton: "[[Note 2 - Engagement Failures and the Artifact Lens (Post Framing)]]"
+content_recovered_from: "[[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]"
+output_artifact: "[[CompletePrompt_LinkedInPost]]"
 purpose: Document evolution from exploratory traces to actionable LinkedIn post prompt
+documented_in: "[[Process Note - Artifact Chain Documentation]]"
 ---
 
 # Prompt Development Log: LinkedIn Post on Meaningful Human Control

@@ -1,20 +1,23 @@
-# Epistemic Trace: Artifact Grounding via JPEP Appendix
-
 ---
 trace_id: 004
 date_generated: 2026-01-18
-source_conversation: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts.md
+source_conversation: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts
 source_chat_link: https://chatgpt.com/g/g-p-696cb65d4f5c81918031a246b62411a6/c/696cb8b2-6678-832c-8bcd-ea492ccfb105
 ai_system: ChatGPT (consultancy fine-tuning GPT)
 sequence_in_chain: 4
 input_type: generated_plus_organic
-input_from: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership.md
+input_from: Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership
 input_lines: 31-84
 input_text: The insight executives don't yet have...That's executive-native language.
 organic_input: Contest - I want a narrower focus. An ai artifacts approach...
 external_reference: JPEP/Paper/UTILITY/Appendix3-5.md
-output_artifacts: Note 1, Note 2
+output_artifacts:
+  - Note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control
+  - Note 2 - Engagement Failures and the Artifact Lens (Post Framing)
+used_by: PromptDevelopmentLog_LinkedInPost
 ---
+
+# Epistemic Trace: Artifact Grounding via JPEP Appendix
 
 ## I. Conversation Purpose
 
@@ -169,3 +172,16 @@ Final deliverable: Two markdown files ready for use—one for internal communica
 
 ### For Retrospective Understanding
 This is the "grounding conversation." The moment where generic AI governance ideas become specific to user's intellectual property. The notes are the key deliverables.
+
+---
+
+## Navigation
+
+- Source: [[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]
+- Input from: [[Conversation_ChatGPT_2026-01-18_Critical_engagement_in_leadership]]
+- Output to:
+  - [[Note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control]]
+  - [[Note 2 - Engagement Failures and the Artifact Lens (Post Framing)]]
+- Prev trace: [[003_EpistemicTrace_EngagementAsOperationalVariable]]
+- Next trace: [[005_EpistemicTrace_ArtifactChainDocumentation]]
+- Used by: [[PromptDevelopmentLog_LinkedInPost]]

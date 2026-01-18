@@ -3,11 +3,12 @@ title: AI Engagement Artifacts as Evidence of Meaningful Human Control
 date: 2026-01-18
 type: note
 sequence: 5
-input_artifact: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts.md
+input_artifact: "[[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]"
 input_line: 387-516
 external_ref: JPEP/Paper/UTILITY/Appendix3-5.md
 purpose: Executive/internal memo
-output_artifact: none
+traced_by: "[[004_EpistemicTrace_ArtifactGrounding]]"
+sibling: "[[Note 2 - Engagement Failures and the Artifact Lens (Post Framing)]]"
 ---
 
 # note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control

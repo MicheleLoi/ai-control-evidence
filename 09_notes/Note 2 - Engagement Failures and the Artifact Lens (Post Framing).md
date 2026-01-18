@@ -3,11 +3,13 @@ title: Engagement Failures and the Artifact Lens (Post Framing)
 date: 2026-01-18
 type: note
 sequence: 6
-input_artifact: Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts.md
+input_artifact: "[[Conversation_ChatGPT_2026_01_18_AI_Engagement_and_Artifacts]]"
 input_line: 519-587
 external_ref: JPEP/Paper/UTILITY/Appendix3-5.md
 purpose: LinkedIn post framing
-output_artifact: none
+traced_by: "[[004_EpistemicTrace_ArtifactGrounding]]"
+sibling: "[[Note 1 — AI Engagement Artifacts as Evidence of Meaningful Human Control]]"
+output_to: "[[PromptDevelopmentLog_LinkedInPost]]"
 ---
 
 # note 2 — Engagement Failures and the Artifact Lens (Post Framing)

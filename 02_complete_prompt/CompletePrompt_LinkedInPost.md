@@ -4,10 +4,13 @@ date: 2026-01-18
 type: complete_prompt
 artifact_type: Type 1
 project: LinkedinArticleOnMeaningfulHumanControl
-derived_from: PromptDevelopmentLog_LinkedInPost.md
-source_chain: 4 conversations -> 5 epistemic traces -> 1 PDL -> this prompt
+derived_from: "[[PromptDevelopmentLog_LinkedInPost]]"
+source_chain: 5 conversations -> 5 epistemic traces -> 1 PDL -> this prompt
 external_grounding: JPEP/Paper/UTILITY/Appendix3-5.md (artifact ontology)
 repo_url: https://github.com/MicheleLoi/ai-control-evidence
+executed_in: "[[Conversation_ChatGPT_2026_01-18_Meaningful_Human_Control]]"
+output_artifact: "[[LinkedIn-Post-2026-01-19]]"
+follow_up: "[[Note_Post2Brief]]"
 ---
 
 # Complete Prompt: LinkedIn Post on Meaningful Human Control
