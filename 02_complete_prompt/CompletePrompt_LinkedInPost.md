@@ -7,27 +7,30 @@ project: LinkedinArticleOnMeaningfulHumanControl
 derived_from: PromptDevelopmentLog_LinkedInPost.md
 source_chain: 4 conversations -> 5 epistemic traces -> 1 PDL -> this prompt
 external_grounding: JPEP/Paper/UTILITY/Appendix3-5.md (artifact ontology)
+repo_url: https://github.com/MicheleLoi/ai-control-evidence
 ---
 
 # Complete Prompt: LinkedIn Post on Meaningful Human Control
 
 ## Task
 
-Write a LinkedIn thought leadership post that connects the philosophical concept of "meaningful human control" to an operational artifact-based framework for detecting genuine human engagement with AI systems.
+Write a LinkedIn thought leadership post that connects the philosophical concept of "meaningful human control" to an operational artifact-based framework for detecting genuine human engagement with AI systems. The post should be self-demonstrating: it argues for artifact evidence and provides its own artifact chain as proof.
 
 ---
 
 ## Audience
 
-Senior executives (CRO, CIO, Head of Ops, AI Governance leads) who:
-- Feel unease about AI oversight but lack vocabulary for it
-- Understand risk, auditability, accountability
-- Are skeptical of ethics lectures and vendor pitches
-- Need concrete indicators, not principles
+**Two reader types (both served in one post):**
+
+**Reader 1 (fast curious):** Senior executives who want the insight in 60 seconds. They'll read, nod, maybe share, move on.
+
+**Reader 2 (concrete tester):** Practitioners who think "show me the evidence" — they'll click the GitHub link and explore the artifact chain.
+
+Both get value without the post splitting focus.
 
 ---
 
-## Structure (8 beats)
+## Structure (9 beats)
 
 ### 1. Philosophy Anchor (2 sentences max)
 Open with "meaningful human control" as the concept. Signal intellectual seriousness without lecturing.
@@ -73,6 +76,21 @@ Organizations that can't contest AI internally can't adapt it externally. Compet
 >
 > The question is whether the organization can **detect the difference between engagement and deference**—and act on it.
 
+### 9. Meta Turn (Self-Demonstration)
+
+Brief transition (1-2 sentences) that makes the post self-demonstrating:
+
+> This post was written using the framework it describes. The full artifact chain—conversations, epistemic traces, prompt development—is public: [GitHub link]
+
+**Function:**
+- Proves the thesis with evidence
+- Activates Reader 2 without losing Reader 1
+- Positions author as practitioner, not just commentator
+
+**Tone:** Matter-of-fact, not self-congratulatory. The artifacts speak for themselves.
+
+**Exact link:** https://github.com/MicheleLoi/ai-control-evidence
+
 ---
 
 ## Voice Requirements
@@ -91,20 +109,22 @@ Organizations that can't contest AI internally can't adapt it externally. Compet
 - Tool/vendor positioning
 - Vague recommendations ("train people better," "create awareness")
 - Positioning as ethicist, philosopher, or AI critic
+- Self-congratulation about the meta turn (let artifacts speak)
 
 ---
 
 ## Positioning Frame
 
-Author helps leadership **see what they are currently blind to**. Not selling, not moralizing, not slowing down AI—revealing structure.
+Author helps leadership **see what they are currently blind to**. Not selling, not moralizing, not slowing down AI—revealing structure. The GitHub link proves author practices what they preach.
 
 ---
 
 ## Length Guidance
 
 - First 3 lines must hook (visible before "see more")
-- Target: 1000-1500 characters for punchy version, up to 2500 for full version
+- Target: 1300-1800 characters (with meta turn)
 - Every sentence must earn its place
+- Meta turn should feel like natural close, not appendix
 
 ---
 
@@ -117,3 +137,5 @@ This prompt synthesizes:
 - Source conversation lines 166-211 (executive payoff and closing)
 
 The intellectual architecture connects user's philosophical work on meaningful human control to executive-ready operational framework via the "traceability of cognition" move.
+
+The meta turn (beat 9) makes the post self-demonstrating: it doesn't just argue for artifacts—it provides them.

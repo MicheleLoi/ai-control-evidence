@@ -137,3 +137,54 @@ From Trace 004 (hinge sentence):
 - Diagnostic expert revealing blind spots
 - Sharp, declarative sentences
 - Executive-native vocabulary (risk, auditability, accountability, governance)
+
+---
+
+## PDL-007: Meta Turn and Two-Reader Strategy
+
+**Source:** Conversation with Claude Code (this session), strategic analysis of post structure.
+
+**Problem:** Post argues for artifact evidence but originally provided none of its own. Missed opportunity for self-demonstration.
+
+**Decision 1 - Add Beat 9 (Meta Turn):**
+Post closes with self-demonstrating move:
+> "This post was written using the framework it describes. Full artifact chain here: [GitHub link]"
+
+**Rationale:** 
+- Makes post self-demonstrating (argues for artifacts AND provides them)
+- Activates Reader 2 without losing Reader 1
+- Positions author as practitioner, not commentator
+- GitHub repo (https://github.com/MicheleLoi/ai-control-evidence) contains full conversation chain, epistemic traces, and this PDL
+
+**Decision 2 - Two Reader Types:**
+| Reader | Behavior | Served by |
+|--------|----------|-----------|
+| Reader 1 (fast curious) | 60-second read, maybe share | Beats 1-8 |
+| Reader 2 (concrete tester) | "Show me evidence" - clicks GitHub | Beat 9 + repo |
+
+Both served in single post without splitting focus.
+
+**Decision 3 - Post Series Strategy:**
+- Post 1: Full argument (beats 1-9) with GitHub link = self-contained
+- Post 2: Follow-up commenting on artifacts (contingent on Post 1 response)
+- GitHub link in Post 1 ensures Reader 2 doesn't have to wait for Post 2
+
+**Tone constraint for beat 9:** Matter-of-fact, not self-congratulatory. Artifacts speak for themselves.
+
+---
+
+## PDL-008: Post 2 Preparation
+
+**Decision:** Create Note_Post2Brief.md as working document for future Post 2.
+
+**Rationale:** 
+- Post 2 is contingent on Post 1 engagement (too early for Complete Prompt)
+- Brief captures intent + pointers without over-specifying
+- Can be converted to CompletePrompt_Post2.md after Post 1 goes live
+
+**Contents specified:**
+- Strategic intent
+- Dependency placeholder (Post 1 engagement data)
+- GitHub artifacts to highlight
+- Candidate angles
+- Voice continuity notes
