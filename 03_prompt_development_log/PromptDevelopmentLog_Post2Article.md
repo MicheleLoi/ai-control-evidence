@@ -86,6 +86,32 @@ purpose: Document evolution from Post2Brief to Complete Prompt, including contro
 
 ---
 
+## PDL-006: Artifact URL Reference
+
+**Source:** Human request to provide navigable pointers to documentation artifacts
+
+**Problem:** The Complete Prompt references artifact types (Epistemic Traces, Modification Logs, etc.) but doesn't provide direct URLs for ChatGPT to guide readers to specific files.
+
+**Solution:** Added "Artifact URL Reference" section with full GitHub URLs for each artifact in both repos.
+
+**Repo 1 artifacts linked (ai-control-evidence):**
+- Epistemic Trace 003 (philosophy-to-executive translation)
+- Epistemic Trace 004 ("leaves traces" hinge)
+- Prompt Development Log
+- Complete Prompt
+- Output (Post 1)
+- Conversations folder
+
+**Repo 2 artifacts linked (epistemic-commons-ai-):**
+- Complete Prompt (Key idea)
+- Modification Log
+- Conversation transcript
+- Output (Post)
+
+**Rationale:** Enables article to point readers directly to verifiable artifacts, demonstrating the auditability function in practice.
+
+---
+
 ## Summary: Evolution Path
 
 ```
@@ -96,9 +122,15 @@ Initial CompletePrompt_Post2_Article.md (traceability framing)
 [Human feedback: control-first reframe]
     ↓
 Revised CompletePrompt_Post2_Article.md (control primary, auditability secondary)
+    ↓
+[Human request: navigable artifact pointers]
+    ↓
+Final CompletePrompt_Post2_Article.md (with full artifact URL reference)
 ```
 
-**Key decision:** The article's core argument shifted from "documentation proves authenticity" to "documentation enables control; conversations are the auditable skeleton when verification matters."
+**Key decisions:**
+1. Core argument shifted from "documentation proves authenticity" to "documentation enables control; conversations are the auditable skeleton when verification matters."
+2. Added direct GitHub URLs to enable readers to verify artifacts themselves.
 
 ---
 

@@ -121,6 +121,30 @@ LinkedIn article format: 1500-2500 words. Longer than a post, but focused.
 1. https://github.com/MicheleLoi/ai-control-evidence
 2. https://github.com/MicheleLoi/epistemic-commons-ai-
 
+## Artifact URL Reference
+
+Guide readers to specific artifacts using these direct links:
+
+### Repo 1: ai-control-evidence (Pre-prompt pattern)
+
+| Artifact | What it shows | URL |
+|----------|---------------|-----|
+| Epistemic Trace 003 | Philosophy-to-executive translation | https://github.com/MicheleLoi/ai-control-evidence/blob/main/01_epistemic_traces/003_EpistemicTrace_EngagementAsOperationalVariable.md |
+| Epistemic Trace 004 | "Leaves traces" hinge sentence | https://github.com/MicheleLoi/ai-control-evidence/blob/main/01_epistemic_traces/004_EpistemicTrace_ArtifactGrounding.md |
+| Prompt Development Log | How traces became instructions | https://github.com/MicheleLoi/ai-control-evidence/blob/main/03_prompt_development_log/PromptDevelopmentLog_LinkedInPost.md |
+| Complete Prompt | Final specification | https://github.com/MicheleLoi/ai-control-evidence/blob/main/02_complete_prompt/CompletePrompt_LinkedInPost.md |
+| Output (Post 1) | The generated post | https://github.com/MicheleLoi/ai-control-evidence/blob/main/LinkedIn-Post-2026-01-19.md |
+| Conversations | Ground truth for audit | https://github.com/MicheleLoi/ai-control-evidence/tree/main/00_Conversations |
+
+### Repo 2: epistemic-commons-ai- (Post-prompt pattern)
+
+| Artifact | What it shows | URL |
+|----------|---------------|-----|
+| Complete Prompt | Human specification | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/02_complete_prompt/Key%20idea%20(for%20AI%20to%20develop).md |
+| Modification Log | Three iterations with rationales | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/04_modification_log/ModificationLog.md |
+| Conversation | Ground truth for audit | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/00_conversations/Conversation_Claude_2025-01-19_Tragedy_of_Epistemic_Commons.md |
+| Output (Post) | Final approved post | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/Post_Tragedy_of_Epistemic_Commons.md |
+
 ---
 
 ## Linked Documents
