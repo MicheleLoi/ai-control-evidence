@@ -145,6 +145,91 @@ Guide readers to specific artifacts using these direct links:
 | Conversation | Ground truth for audit | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/00_conversations/Conversation_Claude_2025-01-19_Tragedy_of_Epistemic_Commons.md |
 | Output (Post) | Final approved post | https://github.com/MicheleLoi/epistemic-commons-ai-/blob/main/Post_Tragedy_of_Epistemic_Commons.md |
 
+## Concrete Content for Article
+
+Use these verbatim quotes and specific examples to make the article concrete.
+
+### Repo 1: The "Lost and Recovered" Story
+
+**The hinge sentence** (from Epistemic Trace 004):
+> "Control is not presence. It is the capacity to understand, contest, and redirect a system. **If that capacity is real, it leaves traces.**"
+
+**The core move** (from Epistemic Trace 004):
+> "Engagement is not an attitude. Engagement is a sequence of interactions that produces artifacts."
+>
+> No artifact → no engagement
+> No engagement → no control
+> No control → unmanaged risk
+
+**What the PDL shows - content recovery:**
+The Prompt Development Log documents how key content was "lost" in Note 2 (the starting skeleton) but recovered from the epistemic traces:
+
+From PDL-002:
+> "Key sentences recovered from Trace 003:
+> 'In AI governance, meaningful human control is often treated as a compliance checkbox: a human approves the output, therefore control exists.
+> But philosophy defines meaningful control very differently: not as presence, but as the capacity to understand, contest, and redirect a system's behavior.
+> The gap between these two interpretations is where most organizational AI risk lives.'"
+
+From PDL-003:
+> "The three executive consequences (risk blind spots, governance theater, strategic fragility) were in the source conversation but missing from Note 2. PDL-003 documents their recovery."
+
+**Why this matters:** Without the epistemic traces, this content would have been lost. The PDL documents what was recovered and from where—enabling audit.
+
+### Repo 2: The Iteration Story
+
+**The human specification** (verbatim from "Key idea"):
+```
+Premises:
+
+1. costly signaling collapse affecting:
+- key epistemic virtues
+- key skills in communication
+- quick heuristics of quality and relevance differentiation
+
+2. general description of tragedy of the commons
+- start with canonical example
+- unpack the analogy
+Here I want you at your best, you need to be creative, reflective, rigorous. Not merely rhetorically convincing.
+
+Question:
+Consider the hypothesis
+A) if everyone uses AI in way X, tragedy of the epistemic commons happens; but if everyone uses AI in way Y, this is less likely
+
+Find plausible answers to X and Y
+```
+
+**The rejection** (from MOD-001):
+> Human feedback:
+> - Too generic in connecting to prior work
+> - Resembled previous outputs too closely
+> - Depth of analysis insufficient - "rhetorically convincing" rather than rigorous
+>
+> Decision: Reject. Reduce scope from article to post.
+
+**The redirection** (from MOD-002):
+> Change: Instead of asserting answers to X and Y, use Ostrom's framework to pose the questions that would need answering if epistemic trust is genuinely a commons.
+>
+> Rationale:
+> - Shorter format forces precision
+> - Questions are honest (we don't have answers)
+> - Ostrom's principles provide rigorous structure without overclaiming
+
+**The final fix** (from MOD-003):
+> Human feedback: Contains genuine insight, but now lacks the key idea setup.
+>
+> Action: Added three-paragraph opening defining the epistemic commons before the Ostrom questions.
+>
+> Human feedback: Approved for publication.
+
+**The evolution table:**
+| Version | Form | Status | Issue |
+|---------|------|--------|-------|
+| V1 | Long article | Rejected | Generic, resembles prior work |
+| V2 | Short post (questions only) | Partial | Missing setup |
+| V3 | Short post (setup + questions) | Approved | — |
+
+**Why this matters:** The modification log shows exactly where human judgment intervened—what was rejected, why, and what changed. This IS the control function in action.
+
 ---
 
 ## Linked Documents

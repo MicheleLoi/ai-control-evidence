@@ -112,6 +112,31 @@ purpose: Document evolution from Post2Brief to Complete Prompt, including contro
 
 ---
 
+## PDL-007: Concrete Content Extraction
+
+**Source:** Human feedback: "ChatGPT can only do a language job, it does not have knowledge of what's inside the projects. That's your privilege as Claude Code."
+
+**Problem:** The Complete Prompt referenced artifacts abstractly but ChatGPT has no access to file contents. Without verbatim quotes and specific examples, the article would be generic.
+
+**Solution:** Claude Code (with file access) extracted concrete content from both repos and added "Concrete Content for Article" section.
+
+**Repo 1 content extracted:**
+- The hinge sentence: "If that capacity is real, it leaves traces"
+- The core move: "Engagement is not an attitude. Engagement is a sequence of interactions..."
+- The "lost and recovered" story from PDL-002 and PDL-003
+- Specific quotes showing philosophy-to-executive translation
+
+**Repo 2 content extracted:**
+- Verbatim human specification ("Key idea" document in full)
+- MOD-001 rejection feedback: "rhetorically convincing rather than rigorous"
+- MOD-002 redirection: switch to Ostrom's questions
+- MOD-003 final fix: add epistemic commons setup
+- The evolution table showing V1 → V2 → V3
+
+**Rationale:** ChatGPT now has the "hard information" needed to write a concrete article with specific quotes, not abstract descriptions of artifact types.
+
+---
+
 ## Summary: Evolution Path
 
 ```
@@ -125,12 +150,17 @@ Revised CompletePrompt_Post2_Article.md (control primary, auditability secondary
     ↓
 [Human request: navigable artifact pointers]
     ↓
-Final CompletePrompt_Post2_Article.md (with full artifact URL reference)
+CompletePrompt with artifact URLs
+    ↓
+[Human feedback: need concrete content, not just links]
+    ↓
+Final CompletePrompt_Post2_Article.md (with verbatim quotes and specific examples)
 ```
 
 **Key decisions:**
 1. Core argument shifted from "documentation proves authenticity" to "documentation enables control; conversations are the auditable skeleton when verification matters."
 2. Added direct GitHub URLs to enable readers to verify artifacts themselves.
+3. Extracted verbatim quotes and specific examples so ChatGPT can write concretely, not abstractly.
 
 ---
 
