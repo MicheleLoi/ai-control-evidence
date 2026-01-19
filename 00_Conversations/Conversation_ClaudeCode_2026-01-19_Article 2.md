@@ -5,20 +5,14 @@ type: conversation
 ai_system: Claude Code (Claude Opus 4.5)
 project: LinkedinArticleOnMeaningfulHumanControl
 purpose: Develop Complete Prompt for LinkedIn article on documentation for control
-input_from: "[[CompletePrompt_Post2_Article]]" (initial draft)
-output_to: "[[CompletePrompt_Post2_Article]]" (final with all content)
+input_from: "[[CompletePrompt_Post2_Article]]"
+output_to: "[[CompletePrompt_Post2_Article]]"
 traced_by: "[[PromptDevelopmentLog_Post2Article]]"
-key_decisions:
-  - PDL-003: Control-first reframe (auditability secondary)
-  - PDL-006: Artifact URL reference added
-  - PDL-007: Concrete content extraction
-  - PDL-008: Evidence semantics frame (Trace 7)
-related_artifacts:
-  - "[[007_epistemic-trace-evidence-semantics-vs-productionization]]"
-  - "[[Note_Post2Brief]]"
-repos_referenced:
-  - https://github.com/MicheleLoi/ai-control-evidence
-  - https://github.com/MicheleLoi/epistemic-commons-ai-
+pdl_entries: PDL-003, PDL-006, PDL-007, PDL-008
+trace_7: "[[007_epistemic-trace-evidence-semantics-vs-productionization]]"
+note: "[[Note_Post2Brief]]"
+repo_1: https://github.com/MicheleLoi/ai-control-evidence
+repo_2: https://github.com/MicheleLoi/epistemic-commons-ai-
 ---
   
   ────────────────────────────────────────
