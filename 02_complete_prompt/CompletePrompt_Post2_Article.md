@@ -8,6 +8,7 @@ purpose: Generate LinkedIn article explaining documentation as enabling control 
 output_artifact: "[[LinkedIn-Article-Post2-Traceability]]"
 derived_from: "[[Note_Post2Brief]]"
 modified_by: "[[PromptDevelopmentLog_Post2Article]]"
+conceptual_frame: "[[007_epistemic-trace-evidence-semantics-vs-productionization]]"
 illustrative_repos:
   - https://github.com/MicheleLoi/ai-control-evidence (Post 1 - pre-prompt workflow)
   - https://github.com/MicheleLoi/epistemic-commons-ai- (Epistemic Commons - post-prompt workflow)
@@ -230,6 +231,48 @@ Find plausible answers to X and Y
 
 **Why this matters:** The modification log shows exactly where human judgment intervened—what was rejected, why, and what changed. This IS the control function in action.
 
+### Conceptual Frame: Evidence Semantics vs Production Deployment
+
+Source: [[007_epistemic-trace-evidence-semantics-vs-productionization]]
+
+**The two problems that get conflated:**
+
+> 1. **Evidence semantics problem (epistemic problem):** What counts as evidence of meaningful human control, and how do we detect/argue it reliably?
+>
+> 2. **Production deployment problem (operational problem):** How do we package, secure, integrate, and run this evidence logic inside a real enterprise environment?
+>
+> Your project's differentiator is primarily (1). (2) is often necessary for adoption, but is typically closer to **commodity engineering**—and should be positioned as an enabling layer that serves (1), not as the product thesis.
+
+**The questions artifacts must answer:**
+
+> - When did AI materially influence a human decision?
+> - Was "human oversight" real engagement or rubber-stamping?
+> - What artifacts would convince a risk committee, auditor, or regulator?
+> - How do we distinguish assistive use from decisional reliance?
+>
+> This is not "do we have logs?" but **do we have the *right* artifacts and tests** to support defensible claims about control and responsibility.
+
+**What "done" looks like:**
+
+> - An **artifact ontology** (what artifacts exist and what each one proves)
+> - A **trace schema** linking AI interactions to decision context
+> - **Validation logic** and **evaluations** that detect weak engagement, over-reliance, and gaming
+> - An **assurance narrative**: how evidence composes into claims decision-makers can stand behind
+
+**The carrier/payload distinction:**
+
+> The productionization layer is the **carrier**. Your ontology + validation logic is the **payload**.
+
+**Positioning one-liner:**
+
+> I help organizations prove (not merely claim) meaningful human control over AI-assisted decisions—by designing and implementing an artifact-based evidence chain that stands up to scrutiny.
+
+**On audit-grade evidence:**
+
+> For audit defensibility, "unalterable data" is necessary but not sufficient. Audit-grade evidence also requires **authenticity, completeness/coverage, chain-of-custody, and decision linkage**—some of which are semantic, and some of which are operational. The key is that the operational layer is **in service of** the semantic layer.
+
+**Why this matters for the article:** The two repos illustrate evidence semantics in action—artifact ontologies that answer what control means and how to detect it. Infrastructure to store these artifacts is the carrier, not the thesis.
+
 ---
 
 ## Linked Documents
@@ -239,3 +282,4 @@ Find plausible answers to X and Y
 - [[LinkedIn-Article-Post2-Traceability]]
 - [[CompletePrompt_LinkedInPost]]
 - [[LinkedIn-Post-2026-01-19]]
+- [[007_epistemic-trace-evidence-semantics-vs-productionization]]

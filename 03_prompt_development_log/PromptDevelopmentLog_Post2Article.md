@@ -137,6 +137,26 @@ purpose: Document evolution from Post2Brief to Complete Prompt, including contro
 
 ---
 
+## PDL-008: Evidence Semantics Frame (Trace 7)
+
+**Source:** [[007_epistemic-trace-evidence-semantics-vs-productionization]]
+
+**Human directive:** Integrate Trace 7 conceptual frame; assess if article can remain LinkedIn-sized; "no rhetorical wastage of readers' attention and time."
+
+**Key content added:**
+- Two-problem distinction: evidence semantics (differentiator) vs production deployment (enabler)
+- Four questions artifacts must answer (rubber-stamping vs real engagement)
+- What "done" looks like (ontology, trace schema, validation logic, assurance narrative)
+- Carrier/payload distinction
+- Positioning one-liner
+- Audit-grade evidence requirements
+
+**Integration:** Added as "Conceptual Frame" section in Concrete Content. YAML metadata updated with `conceptual_frame` reference.
+
+**Rationale:** Sharpens the article's thesis—artifacts aren't just documentation, they're evidence semantics operationalized. Distinguishes the hard problem (what counts as control) from commodity infrastructure (how to store it).
+
+---
+
 ## Summary: Evolution Path
 
 ```
@@ -146,7 +166,7 @@ Initial CompletePrompt_Post2_Article.md (traceability framing)
     ↓
 [Human feedback: control-first reframe]
     ↓
-Revised CompletePrompt_Post2_Article.md (control primary, auditability secondary)
+Revised (control primary, auditability secondary)
     ↓
 [Human request: navigable artifact pointers]
     ↓
@@ -154,13 +174,18 @@ CompletePrompt with artifact URLs
     ↓
 [Human feedback: need concrete content, not just links]
     ↓
-Final CompletePrompt_Post2_Article.md (with verbatim quotes and specific examples)
+CompletePrompt with verbatim quotes
+    ↓
+[Human directive: integrate Trace 7 conceptual frame]
+    ↓
+Final CompletePrompt_Post2_Article.md (with evidence semantics frame)
 ```
 
 **Key decisions:**
 1. Core argument shifted from "documentation proves authenticity" to "documentation enables control; conversations are the auditable skeleton when verification matters."
 2. Added direct GitHub URLs to enable readers to verify artifacts themselves.
 3. Extracted verbatim quotes and specific examples so ChatGPT can write concretely, not abstractly.
+4. Integrated evidence semantics vs production deployment distinction from Trace 7—artifacts are the payload, infrastructure is the carrier.
 
 ---
 
@@ -171,3 +196,4 @@ Final CompletePrompt_Post2_Article.md (with verbatim quotes and specific example
 - [[CompletePrompt_LinkedInPost]]
 - [[LinkedIn-Post-2026-01-19]]
 - [[PromptDevelopmentLog_LinkedInPost]]
+- [[007_epistemic-trace-evidence-semantics-vs-productionization]]
