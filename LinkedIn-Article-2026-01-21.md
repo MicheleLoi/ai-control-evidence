@@ -17,10 +17,10 @@ This article argues for a practical hierarchy:
 - **Documentation is primarily a control tool**: it supports framing, evaluation, redirection, and decision-making while the work is happening.
 - **Auditability is secondary**: when scrutiny arrives, documentation helps you navigate to what matters, fast.
 
-Two GitHub repositories illustrate two documentation patterns—one “before-generation,” one “after-generation”—and why both are legitimate ways to maintain meaningful human control.
+Two GitHub repositories illustrate two workflows for maintaining meaningful human control: one where control is exercised through upfront specification, one through iterative evaluation. Both document the process as it happens.
 
-- Repo 1 (pre-prompt pattern): [ai-control-evidence](https://github.com/MicheleLoi/ai-control-evidence)  
-- Repo 2 (post-prompt pattern): [epistemic-commons-ai-](https://github.com/MicheleLoi/epistemic-commons-ai-)
+- Repo 1 (specification-first): [ai-control-evidence](https://github.com/MicheleLoi/ai-control-evidence)
+- Repo 2 (iteration-first): [epistemic-commons-ai-](https://github.com/MicheleLoi/epistemic-commons-ai-)
 
 ---
 
@@ -66,7 +66,7 @@ The artifacts don’t “prove authenticity” by themselves. They make it possi
 
 ---
 
-## Pattern 1: Pre-prompt documentation (control before generation)
+## Pattern 1: Control through specification
 
 Repository: [ai-control-evidence](https://github.com/MicheleLoi/ai-control-evidence)
 
@@ -113,17 +113,17 @@ That is a control function: preventing accidental drift and silent loss of criti
 
 And it is also an audit function: it points an auditor (or your future self) to the exact thread where an important claim originated.
 
-**Why it matters:** in a pre-prompt workflow, your primary risk is not hallucination—it’s *unexamined selection*. The model can only generate from the constraints you gave it. Documentation makes those constraints legible and revisable.
+**Why it matters:** in a specification-first workflow, your primary risk is not hallucination—it's *unexamined selection*. The model can only generate from the constraints you gave it. Documentation makes those constraints legible and revisable.
 
 ---
 
-## Pattern 2: Post-prompt documentation (control after generation)
+## Pattern 2: Control through iteration
 
 Repository: [epistemic-commons-ai-](https://github.com/MicheleLoi/epistemic-commons-ai-)
 
 This workflow flips the control timing.
 
-Instead of doing most structuring before generation, you do it after: the model drafts, the human judges, and iteration is documented.
+Instead of front-loading structure into a detailed specification, this workflow distributes control across drafting cycles: the model produces a draft, the human evaluates and redirects, and the iteration is documented.
 
 **Sequence (simplified):**
 
@@ -221,20 +221,20 @@ The point is not “everyone must use the same artifact stack.”
 
 Different work styles and different risk profiles benefit from different patterns.
 
-### Pre-prompt pattern is strong when:
+### Specification-first is strong when:
 - you need tight constraints before generation
 - errors are expensive (policy, legal, high-stakes comms)
 - the hard part is problem framing and selecting what matters
 
-### Post-prompt pattern is strong when:
+### Iteration-first is strong when:
 - you can iterate quickly
 - value comes from drafting and refining
 - the main risk is accepting plausible-but-weak output
 
 In practice, many teams hybridize:
 
-- pre-prompt artifacts for framing and scope
-- post-prompt logs for evaluation and refinement
+- specification artifacts for framing and scope
+- iteration logs for evaluation and refinement
 
 ---
 
