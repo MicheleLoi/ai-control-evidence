@@ -1,5 +1,5 @@
 ---
-title: Documentation as Control in AI-Assisted Knowledge Work
+title: "If You Can’t Reconstruct It, You Don’t Control It: Designing Auditable AI Workflows"
 date: 2026-01-19
 format: LinkedIn Article
 ---
@@ -30,7 +30,7 @@ Two GitHub repositories illustrate two workflows for maintaining meaningful huma
 
 But control in complex systems is the capacity to **understand**, **contest**, and **redirect** behavior while it matters.
 
-A sentence in the first repository captures the hinge:
+An AI-generated sentence in the first repository captures the hinge:
 
 > “Control is not presence… If that capacity is real, it leaves traces.”
 
@@ -212,6 +212,8 @@ They show a claim you can actually test:
 Deployment matters for adoption, but it should be treated as the carrier for the payload.
 
 The payload is the artifact ontology and validation logic.
+
+Teams are actively building production tooling for this space—systems that capture human-in-the-loop signals as operational telemetry. The semantic layer this article describes is what gives that telemetry meaning.
 
 ---
 

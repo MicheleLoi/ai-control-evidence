@@ -157,6 +157,18 @@ purpose: Document evolution from Post2Brief to Complete Prompt, including contro
 
 ---
 
+## PDL-009: Production Tooling Acknowledgment
+
+**Source:** Human input referencing active work in the deployment space
+
+**Addition:** Brief acknowledgment in "Evidence semantics vs production deployment" section that teams are building production tooling—systems capturing human-in-the-loop signals as telemetry.
+
+**Framing:** The semantic layer (artifact ontology, validation logic) gives that telemetry meaning. Keeps focus on semantics while acknowledging deployment work is active.
+
+**Rationale:** Grounds the article's two-problem distinction. Signals that deployment isn't a theoretical future concern—work is happening—without endorsing specific tools or distracting from the semantic focus.
+
+---
+
 ## Summary: Evolution Path
 
 ```
@@ -179,6 +191,10 @@ CompletePrompt with verbatim quotes
 [Human directive: integrate Trace 7 conceptual frame]
     ↓
 Final CompletePrompt_Post2_Article.md (with evidence semantics frame)
+    ↓
+[Human input: acknowledge active deployment work]
+    ↓
+Article with production tooling acknowledgment
 ```
 
 **Key decisions:**
@@ -186,6 +202,7 @@ Final CompletePrompt_Post2_Article.md (with evidence semantics frame)
 2. Added direct GitHub URLs to enable readers to verify artifacts themselves.
 3. Extracted verbatim quotes and specific examples so ChatGPT can write concretely, not abstractly.
 4. Integrated evidence semantics vs production deployment distinction from Trace 7—artifacts are the payload, infrastructure is the carrier.
+5. Added brief acknowledgment that teams are building production tooling—grounds the two-problem distinction without endorsing specific tools.
 
 ---
 
